@@ -1,0 +1,109 @@
+body { background-color: lightblue;
+	}
+	
+h1 {
+    background-color: lightgreen;
+	}
+a {
+	background-color: lightgreen;
+	}
+	
+img {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+	flex-basis: auto;
+	}
+	
+form {
+	border-style: solid;
+    border-width: 5px;
+    }
+    
+h2 {
+text-align:center;
+	}
+
+a:link {
+    color: blue;
+    padding: 10px;
+	}
+
+a:visited {
+    color: darkgreen;
+	}
+
+a:hover {
+    color: red;
+	}
+
+a:active {
+    color: white;
+	}
+	
+#welcome{ text-align: center;
+	}
+
+.header{
+    text-align: center;
+    padding: 10px 20px;
+    font-family: Arial;
+	font-style: italic;
+	}
+    
+.navigation{
+	display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align:center;
+	}  
+  
+.content{
+	font-family: Comic Sans MS;
+	}
+
+.allimages{
+
+  padding: 20;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.image {
+    margin: 5px;
+    width: 380px;
+	}
+    
+
+.firstform{
+	text-align:center;
+	padding: 20px;
+	}
+
+.footer{ 
+	padding: 10px;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 12px;
+	text-align: center;
+	}
+	
+ol#facts{
+   font-weight: bold;
+	}
+	
+ul#movies li {
+   font-weight: bold;
+	}
+	
+@media all and (max-width: 600px) {
+  .allimages{
+    flex-direction: column;
+    }
